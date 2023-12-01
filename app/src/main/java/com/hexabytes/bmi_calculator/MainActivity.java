@@ -44,11 +44,11 @@ public class MainActivity extends AppCompatActivity {
                     float BMI = (float)(bmi);
                     if (BMI > 25) {
                         txtresult.setText("     "+BMI+ "\n" + "You're Overweight");
-                        txtresult.setBackgroundColor(Color.YELLOW);
+                        txtresult.setBackgroundColor(Color.RED);
 
                     } else if (BMI < 18) {
                         txtresult.setText("     "+BMI+ "\n" + "You're Underweight!");
-                        txtresult.setBackgroundColor(Color.RED);
+                        txtresult.setBackgroundColor(Color.YELLOW);
                     } else {
                         txtresult.setText("     "+BMI+ "\n" + "You're Healthy!!");
                         txtresult.setBackgroundColor(Color.GREEN);
